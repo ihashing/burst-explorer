@@ -18,7 +18,7 @@ include 'function.php';
 if($_GET['action']=='monitor_submit')include 'monitor_submit.php';
 ?>
 <head>
-	<title>Burst Explorer</title>
+	<title>BURSTPAY Explorer</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=0.53">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -108,7 +108,7 @@ if($_GET['search_box']!=''){
 # Please do not remove credit or donation address in the below navbar
 ?>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom">
-	<span class="text-white">Developed by  Zoh <a href="https://twitter.com/Zoh63392187" target="_blank" class="text-info"><img src="image/twitter.png"></a> Member of Burst Apps Team <a href="https://twitter.com/BurstAppsTeam" target="_blank" class="text-info"><img src="image/twitter.png"></a> Donations: BURST-NMEA-GRHZ-BRFE-5SG6P</span>
+	<span class="text-white">@iHashing <a href="https://fb.com/ihashing" target="_blank" class="text-info"><img src="image/twitter.png"></a> @BURSTPAY <a href="https://fb.com/burstpay" target="_blank" class="text-info"><img src="image/twitter.png"></a> Donations: BURST-JU4F-GUTK-CUGZ-DQ979</span>
 </nav>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
 	<a class="navbar-brand" href="/"><img src="image/logo/LOGO_TEXT_BLUE_90x24.png"> Explorer</a>
@@ -144,19 +144,19 @@ if($_GET['search_box']!=''){
 					Links
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="https://burst-coin.org" target="_blank"><i class="fas fa-link"></i> Burst-Coin</a>
+					<a class="dropdown-item" href="https://burst-coin.org" target="_blank"><i class="fas fa-link"></i> Burst-coin.org</a>
 					<a class="dropdown-item" href="https://discord.gg/G8N2QPa" target="_blank"><i class="fab fa-discord"></i> Burst Discord</a>
 					<a class="dropdown-item" href="https://burstforum.net/" target="_blank"><i class="fas fa-satellite"></i> Burst Forum</a>					
 					<a class="dropdown-item" href="https://github.com/PoC-Consortium/scavenger/releases" target="_blank"><i class="fab fa-github"></i> Burst Miner</a>
 					<a class="dropdown-item" href="https://www.burstcoin.ist/" target="_blank"><i class="far fa-newspaper"></i> Burst News</a>
 					<a class="dropdown-item" href="https://www.reddit.com/r/burstcoin/new" target="_blank"><i class="fab fa-reddit"></i> Burst Reddit</a>
-					<a class="dropdown-item" href="https://t.me/burstcoin" target="_blank"><i class="fab fa-telegram"></i> Burst Telegram</a>
+					<a class="dropdown-item" href="https://t.me/burstcoin_hk" target="_blank"><i class="fab fa-telegram"></i> Burst_HK Telegram</a>
 					<a class="dropdown-item" href="https://github.com/burst-apps-team/burstcoin/releases" target="_blank"><i class="fab fa-github"></i> Burst Wallet</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="http://wallet.burstcoin.network:8125/index.html" target="_blank"><i class="fab fa-github"></i> Online Wallet</a>
+					<a class="dropdown-item" href="https://wallet.burstpay.io:8125/index.html" target="_blank"><i class="fab fa-github"></i> Online Wallet</a>
 					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="https://github.com/burst-apps-team/burst-explorer/issues" target="_blank"><i class="fas fa-bug"></i> Bugs</a>
-					<?if($_SERVER['REMOTE_ADDR']==$secureIP){?>
+					<a class="dropdown-item" href="https://github.com/ihashing/burst-explorer/issues" target="_blank"><i class="fas fa-bug"></i> Bugs</a>
+					<?if($_SERVER['REMOTE_ADDR']==$secureIP){?>    
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="<?=SITE_NAME?>/cron_.php"><i class="far fa-clock"></i> Cron</a>
 					<a class="dropdown-item" href="<?=SITE_NAME?>/cron_network_status.php"><i class="far fa-clock"></i> Cron Network</a>
@@ -186,7 +186,7 @@ if($_GET['search_box']!=''){
 	}
 	// Display message if true
 	if($show_notice){
-		echo '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>The Explorer has been moved to a Burst Apps Team website: https://explorer.burstcoin.network/</strong></div>';
+		echo '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>The Explorer has been moved to: https://explorer.burstcoin.network/</strong></div>';
 	}
 	if($_SESSION["monitor_status"]){
 		echo $_SESSION["monitor_status"];
