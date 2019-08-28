@@ -1,10 +1,10 @@
 <img align="right" width="120" height="120" title="Burstpay Logo" src="https://github.com/ihashing/burst-explorer/blob/develop/image/BURSTPAY_ICON.png" />
 
-# Burst-Explorer
+# Burstpay-Explorer
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE.txt)
 [![Get Support at https://discord.gg/ms6eagX](https://img.shields.io/badge/join-discord-blue.svg)](https://discord.gg/ms6eagX)
 
-Blockchain Explorer using PHP, MySQL, JavaScript and Bootstrap. It contains multiple helpful charts, a network observer, world map, and more
+BURST Blockchain Explorer using PHP, MySQL, JavaScript and Bootstrap. It contains multiple helpful charts, a network observer, world map, and more
 
 Requirements:
 * BRS 2.3.0
