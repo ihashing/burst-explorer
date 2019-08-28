@@ -1,4 +1,4 @@
-<img align="right" width="120" height="120" title="Burstpay Logo" src="https://https://github.com/ihashing/burst-explorer/blob/develop/image/BURSTPAY_ICON.png" />
+<img align="right" width="120" height="120" title="Burstpay Logo" src="https://github.com/ihashing/burst-explorer/blob/develop/image/BURSTPAY_ICON.png" />
 
 # Burst-Explorer
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE.txt)
