@@ -144,16 +144,16 @@ if($_GET['search_box']!=''){
 					Links
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="https://www.burstpay.io" target="_blank"><i class="fas fa-link"></i> Burstpay Website</a>
+					<a class="dropdown-item" href="https://www.burstpay.io" target="_blank"><i class="fas fa-link"></i> Burstpay</a>
 					<a class="dropdown-item" href="https://t.me/burstcoin_hk" target="_blank"><i class="fab fa-telegram"></i> Burst_HK Telegram</a>
-					<a class="dropdown-item" href="https://www.reddit.com/r/burst" target="_blank"><i class="fab fa-reddit"></i> Burst Reddit</a>
-					<a class="dropdown-item" href="https://discord.gg/G8N2QPa" target="_blank"><i class="fab fa-discord"></i> Burst Discord</a>
+					<a class="dropdown-item" href="https://wallet.burstpay.io:8125/index.html" target="_blank"><i class="fab fa-github"></i> Online Wallet</a>
 					<a class="dropdown-item" href="https://github.com/ihashing/scavenger/releases" target="_blank"><i class="fab fa-github"></i> Burst Miner</a>
 					<a class="dropdown-item" href="https://github.com/burst-apps-team/burstcoin/releases" target="_blank"><i class="fab fa-github"></i> Burst Core</a>
-					<a class="dropdown-item" href="https://wallet.burstpay.io:8125/index.html" target="_blank"><i class="fab fa-github"></i> Online Wallet</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="https://burst-coin.org/" target="_blank"><i class="fas fa-satellite"></i> Burst Website</a>
 					<a class="dropdown-item" href="https://www.burstcoin.ist/" target="_blank"><i class="far fa-newspaper"></i> Burst News</a>
+					<a class="dropdown-item" href="https://www.reddit.com/r/burst" target="_blank"><i class="fab fa-reddit"></i> Burst Reddit</a>
+					<a class="dropdown-item" href="https://discord.gg/G8N2QPa" target="_blank"><i class="fab fa-discord"></i> Burst Discord</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="https://github.com/ihashing/burst-explorer/issues" target="_blank"><i class="fas fa-bug"></i> Bugs</a>
 					<?if($_SERVER['REMOTE_ADDR']==$secureIP){?>    
